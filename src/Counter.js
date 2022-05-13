@@ -5,11 +5,11 @@ const Counter = () => {
 
 
     const addCounterButtonHandler = () => {
-
+        setCounter(counter +1)
     }
 
     const removeCounterButtonHandler = () => {
-
+        setCounter(counter -1)
     }
 
     return(
@@ -18,8 +18,8 @@ const Counter = () => {
             {counter}
             </p>
 
-            <button>+</button>
-            <button>-</button>
+            <button onClick={addCounterButtonHandler}>+</button>
+            <button onClick={removeCounterButtonHandler}>-</button>
         </div>
     )
 }
