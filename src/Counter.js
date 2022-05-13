@@ -4,6 +4,14 @@ const Counter = () => {
     const [counter, setCounter] = useState(0)
 
 
+    const addCounterButtonHandler = () => {
+
+    }
+
+    const removeCounterButtonHandler = () => {
+
+    }
+
     return(
         <div>
             <p>
