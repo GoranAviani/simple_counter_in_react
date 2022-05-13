@@ -5,17 +5,17 @@ const Counter = () => {
 
 
     const addCounterButtonHandler = () => {
-        setCounter(counter +1)
+        setCounter(counter + 1)
     }
 
     const removeCounterButtonHandler = () => {
-        setCounter(counter -1)
+        setCounter(counter - 1)
     }
 
-    return(
+    return (
         <div>
             <p>
-            {counter}
+                {counter}
             </p>
 
             <button onClick={addCounterButtonHandler}>+</button>
